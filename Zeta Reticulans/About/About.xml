@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Zeta Reticulans</name>
+  <author>GarbageDayIsHereToStay</author>
+  <packageId>GarbageDayIsHereToStay.ZetaReticulans.GDIHTSZR</packageId>
+  <supportedVersions><li>1.1</li></supportedVersions>
+  <description>
+The classic alien menace and scourge of humanity we all know and hate has finally arrived, rejoice!
+(There WILL be updates so stay subbed dudes)
+
+New:
+_____________________
+Made Zeta's draw size/portrait tinier to match their nerd physic
+
+Balance + Tweaks:
+_____________________
+Removed the shortterm negative effects to breathing, hearing, and sight from zeta's stare attack 
+Stare power (Damage) lowered from 12 > 8
+Stare power severity stages (serious,extreme,etc) now easier to reach
+Severity of sub-atomic breakdown applied per stare damge raised 0.012 > 0.018
+
+Retinal Scrambler range raised 30.9 > 36.9, on par with the base rifle
+Muzzle Flash lowered from 14 > 10
+
+Chance of random wanderer joining being zeta raised rather than human, maybe, i'm not sure if it already rounded up to 100% tbh. I think it's the same.
+
+Removed race bonuses to psychic entropy, i'll check out what i can do with the new system in a future patch. 
+
+Existing Text Fixes/Changes (For translators mostly):
+_____________________
+New settlement names 
+
+Bug fixes:
+_____________________
+Added a pool of "Last names" to stop red text related name generation.
+Updated the think tree to handle meditation/ remove reign as a job
+
+
+
+    
+  </description>
+</ModMetaData>
