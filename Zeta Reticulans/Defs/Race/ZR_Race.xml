@@ -295,13 +295,13 @@
         <original>AteCorpse</original>
         <replacer>ZR_AteCorpse</replacer>  
       </li>
+      <li>  
+        <original>SleptInBedroom</original>
+        <replacer>ZR_SleptInBedroom</replacer>  
+      </li>
       <li>
         <original>SleptInBarracks</original>
         <replacer>ZR_SleptInBarracks</replacer>  
-      </li>
-      <li>
-        <original>SleptInBedroom</original>
-        <replacer>ZR_SleptInBedroom</replacer>  
       </li>
       <li>
         <original>SleepDisturbed</original>
@@ -741,7 +741,7 @@
               <kindDefs>
                 <li>ZR_PAWN_DEF</li>
               </kindDefs>
-              <chance>15.0</chance>
+              <chance>100</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -757,7 +757,7 @@
               <kindDefs>
                 <li>ZR_PAWN_DEF</li>
               </kindDefs>
-              <chance>50.0</chance>
+              <chance>95</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>

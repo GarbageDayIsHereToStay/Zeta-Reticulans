@@ -30,6 +30,18 @@
               <inBedOnly>true</inBedOnly>
             </li>
             
+            <!--Unused joy node-->
+            <li Class="ThinkNode_Tagger">
+              <tagToGive>SatisfyingNeeds</tagToGive>
+              <subNodes>
+                <li Class="ThinkNode_PrioritySorter">
+                  <subNodes>
+                    <li Class="JobGiver_MeditateInBed"/>
+                  </subNodes>
+                </li>
+              </subNodes>
+            </li>
+            
             <!-- Keep lying down -->
             <li Class="JobGiver_KeepLyingDown" />
           </subNodes>

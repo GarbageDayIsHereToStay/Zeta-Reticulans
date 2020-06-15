@@ -842,16 +842,61 @@
     <durationDays>1</durationDays>
     <stackLimit>1</stackLimit>
     <stages>
+      <!--Awful (Stage 1)-->
       <li>
         <label>satisfactory rest alcove</label>
         <description>My last used rest alcove was sufficient.</description>
         <baseMoodEffect>1</baseMoodEffect>
       </li>
+      <!--Dull (Stage 2)-->
+      <li>
+        <label>satisfactory rest alcove</label>
+        <description>My last used rest alcove was sufficient.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <!--Mediocre (Stage 3)-->
+      <li>
+        <label>satisfactory rest alcove</label>
+        <description>My last used rest alcove was sufficient.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <!--Decent (Stage 4)-->
+      <li>
+        <label>satisfactory rest alcove</label>
+        <description>My last used rest alcove was sufficient.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <!--Slightly Impressive (Stage 5)-->
+      <li>
+        <label>satisfactory rest alcove</label>
+        <description>My last used rest alcove was sufficient.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <!--Impressive (Stage 6)-->
       <li>
         <label>alcove surpassed benchmarks</label>
         <description>The last rest alcove I used was well engineered and surpassed recommended benchmarks.</description>
         <baseMoodEffect>3</baseMoodEffect>
       </li>
+      <!--Very Impressive (Stage 7)-->
+      <li>
+        <label>alcove surpassed benchmarks</label>
+        <description>The last rest alcove I used was well engineered and surpassed recommended benchmarks.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <!--Extremely Impressive (Stage 8)-->
+      <li>
+        <label>alcove surpassed benchmarks</label>
+        <description>The last rest alcove I used was well engineered and surpassed recommended benchmarks.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <!--Unbelievably Impressive (Stage 9)-->
+      <li>
+        <label>ergonomic alcove</label>
+        <description>A culmination of our best designs and knowledge, resting in that last alcove left my mind feeling ordered.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <!--Wondrously Impressive (Stage 10)-->
       <li>
         <label>ergonomic alcove</label>
         <description>A culmination of our best designs and knowledge, resting in that last alcove left my mind feeling ordered.</description>
@@ -881,16 +926,61 @@
     <durationDays>1</durationDays>
     <stackLimit>1</stackLimit>
     <stages>
+      <!--Awful (Stage 1)-->
       <li>
         <label>emergency drey</label>
         <description>Co-op protocols recommend individual rest alcoves to limit disruptions. It's imperative that we optimize our operating procedures.</description>
         <baseMoodEffect>-8</baseMoodEffect>
       </li>
+      <!--Dull (Stage 2)-->
+      <li>
+        <label>emergency drey</label>
+        <description>Co-op protocols recommend individual rest alcoves to limit disruptions. It's imperative that we optimize our operating procedures.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+      <!--Mediocre (Stage 3)-->
+      <li>
+        <label>emergency drey</label>
+        <description>Co-op protocols recommend individual rest alcoves to limit disruptions. It's imperative that we optimize our operating procedures.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+      <!--Decent (Stage 4)-->
       <li>
         <label>resting drey</label>
         <description>Communal resting drey are not advised even if a room's structural and sanitation parameters would otherwise meet set benchmarks.</description>
         <baseMoodEffect>-4</baseMoodEffect>
       </li>
+      <!--Slightly Impressive (Stage 5)-->
+      <li>
+        <label>resting drey</label>
+        <description>Communal resting drey are not advised even if a room's structural and sanitation parameters would otherwise meet set benchmarks.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+      <!--Impressive (Stage 6)-->
+      <li>
+        <label>resting drey</label>
+        <description>Communal resting drey are not advised even if a room's structural and sanitation parameters would otherwise meet set benchmarks.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+      <!--Very Impressive (Stage 7)-->
+      <li>
+        <label>resting drey</label>
+        <description>Communal resting drey are not advised even if a room's structural and sanitation parameters would otherwise meet set benchmarks.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+      <!--Extremely Impressive (Stage 8)-->
+      <li>
+        <label>resting drey</label>
+        <description>Communal resting drey are not advised even if a room's structural and sanitation parameters would otherwise meet set benchmarks.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+      <!--Unbelievably Impressive (Stage 9)-->
+      <li>
+        <label>well-built drey</label>
+        <description>Despite its cleanliness and excellent design continued use of any shared resting drey will cut into long-term productivity margins.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <!--Wondrously Impressive (Stage 10)-->
       <li>
         <label>well-built drey</label>
         <description>Despite its cleanliness and excellent design continued use of any shared resting drey will cut into long-term productivity margins.</description>

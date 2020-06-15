@@ -75,7 +75,7 @@
             </li>
         </additionalHediffs>
         
-        <defaultDamage>2.5</defaultDamage>
+        <defaultDamage>2</defaultDamage>
         <armorCategory>Sharp</armorCategory>
         <harmsHealth>true</harmsHealth>
         <makesBlood>true</makesBlood>

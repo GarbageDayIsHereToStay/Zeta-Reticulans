@@ -10,33 +10,14 @@ The classic alien menace and scourge of humanity we all know and hate has finall
 
 New:
 _____________________
-Made Zeta's draw size/portrait tinier to match their nerd physic
-
-Balance + Tweaks:
-_____________________
-Removed the shortterm negative effects to breathing, hearing, and sight from zeta's stare attack 
-Stare power (Damage) lowered from 12 > 8
-Stare power severity stages (serious,extreme,etc) now easier to reach
-Severity of sub-atomic breakdown applied per stare damge raised 0.012 > 0.018
-
-Retinal Scrambler range raised 30.9 > 36.9, on par with the base rifle
-Muzzle Flash lowered from 14 > 10
-
-Chance of random wanderer joining being zeta raised rather than human, maybe, i'm not sure if it already rounded up to 100% tbh. I think it's the same.
-
-Removed race bonuses to psychic entropy, i'll check out what i can do with the new system in a future patch. 
-
-Existing Text Fixes/Changes (For translators mostly):
-_____________________
-New settlement names 
+This is sorta "new" in that it'll add alot to game play but it's really a bug fix that the alienrace dev, another modder, and myself spent the last couple day fixing/testing on alien race side:
+Alien race with custom "sleptinbedroom/barracks" thoughts will now progess through stages rather then getting stuck on 1st stage (Which meant you used to get "Shit room" thoughts even if you slept in "good rooms")
+This'll effect all alien races that have custom bedroom thoughts; Will likely cause bugs with some of them through incorrect staging in thought thier .xml that'll now trigger as the stages try to progress, hopefully it won't be many how do that.
 
 Bug fixes:
 _____________________
-Added a pool of "Last names" to stop red text related name generation.
-Updated the think tree to handle meditation/ remove reign as a job
+Enabled medatation in bed (I didn't want to enable on patch day without testing 1st because it involved adding back in and editing thinktree nodes id prevously deleted in full, needed to see how that played a little 1st)
 
-
-
-    
-  </description>
+Rounded out a damagedef .xml # from 2.5> 2. Nothing changes because that 2.5 number was already being changed to a flat 3 bullet side. Only people using certain bug finding programs would have noticed this error.
+ </description>
 </ModMetaData>
