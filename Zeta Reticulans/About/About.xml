@@ -4,20 +4,7 @@
   <author>GarbageDayIsHereToStay</author>
   <packageId>GarbageDayIsHereToStay.ZetaReticulans.GDIHTSZR</packageId>
   <supportedVersions><li>1.1</li></supportedVersions>
-  <description>
-The classic alien menace and scourge of humanity we all know and hate has finally arrived, rejoice!
-(There WILL be updates so stay subbed dudes)
-
-New:
-_____________________
-This is sorta "new" in that it'll add alot to game play but it's really a bug fix that the alienrace dev, another modder, and myself spent the last couple day fixing/testing on alien race side:
-Alien race with custom "sleptinbedroom/barracks" thoughts will now progess through stages rather then getting stuck on 1st stage (Which meant you used to get "Shit room" thoughts even if you slept in "good rooms")
-This'll effect all alien races that have custom bedroom thoughts; Will likely cause bugs with some of them through incorrect staging in thought thier .xml that'll now trigger as the stages try to progress, hopefully it won't be many how do that.
-
-Bug fixes:
-_____________________
-Enabled medatation in bed (I didn't want to enable on patch day without testing 1st because it involved adding back in and editing thinktree nodes id prevously deleted in full, needed to see how that played a little 1st)
-
-Rounded out a damagedef .xml # from 2.5> 2. Nothing changes because that 2.5 number was already being changed to a flat 3 bullet side. Only people using certain bug finding programs would have noticed this error.
+  <description>(Newest patch notes on workshop; Version: 22-06-2020)
+\nCold and mechanical Zeta Reticulans are unaffected by most human-like emotions. Their frustrations mostly stem from whether work standards are being kept and mission guidelines followed; Their greatest joy is working in their field of expertise.
  </description>
 </ModMetaData>

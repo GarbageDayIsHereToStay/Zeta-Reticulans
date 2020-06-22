@@ -72,7 +72,7 @@
   </maxPawnCostPerTotalPointsCurve>
   
   <pawnGroupMakers>
-    <!--■■■100 HEAVY■■■--> 
+    <!--■■■HEAVY■■■--> 
     <li>
       <kindDef>Combat</kindDef>
       <commonality>10</commonality>
@@ -80,23 +80,34 @@
         <ZR_NPCPAWN_HEAVY_DEF>100</ZR_NPCPAWN_HEAVY_DEF>
       </options>
     </li>
-    <!--■■■100 LIGHTRANGED■■■--> 
+    <!--■■■UNARMOUREDRANGED/UNARMOUREDCLOSE■■■--> 
     <li>
       <kindDef>Combat</kindDef>
       <commonality>20</commonality>
       <options>
+        <ZR_NPCPAWN_UNARMOUREDRANGED_DEF>100</ZR_NPCPAWN_UNARMOUREDRANGED_DEF>
+        <ZR_NPCPAWN_UNARMOUREDCLOSE_DEF>50</ZR_NPCPAWN_UNARMOUREDCLOSE_DEF>
+      </options>
+    </li>   
+    <!--■■■UNARMOUREDRANGED/LIGHTRANGED■■■--> 
+    <li>
+      <kindDef>Combat</kindDef>
+      <commonality>20</commonality>
+      <options>
+        <ZR_NPCPAWN_UNARMOUREDRANGED_DEF>100</ZR_NPCPAWN_UNARMOUREDRANGED_DEF>
         <ZR_NPCPAWN_LIGHTRANGED_DEF>100</ZR_NPCPAWN_LIGHTRANGED_DEF>
       </options>
     </li>    
-    <!--■■■100 LIGHTCLOSE■■■--> 
+    <!--■■■UNARMOUREDCLOSE/LIGHTCLOSE■■■--> 
     <li>
       <kindDef>Combat</kindDef>
-      <commonality>30</commonality>
+      <commonality>10</commonality>
       <options>
-        <ZR_NPCPAWN_LIGHTCLOSE_DEF>100</ZR_NPCPAWN_LIGHTCLOSE_DEF>
+        <ZR_NPCPAWN_UNARMOUREDCLOSE_DEF>100</ZR_NPCPAWN_UNARMOUREDCLOSE_DEF>
+        <ZR_NPCPAWN_LIGHTCLOSE_DEF>50</ZR_NPCPAWN_LIGHTCLOSE_DEF>
       </options>
     </li>
-    <!--■■■25/75 HEAVY/LIGHTRANGED■■■--> 
+    <!--■■■HEAVY/LIGHTRANGED■■■--> 
     <li>
       <kindDef>Combat</kindDef>
       <commonality>15</commonality>
@@ -105,37 +116,41 @@
         <ZR_NPCPAWN_LIGHTRANGED_DEF>100</ZR_NPCPAWN_LIGHTRANGED_DEF>
       </options>
     </li>
-    <!--■■■75/25 HEAVY/LIGHTCLOSE■■■--> 
+    <!--■■■HEAVY/LIGHTCLOSE/UNARMOUREDRANGED■■■--> 
     <li>
       <kindDef>Combat</kindDef>
       <commonality>15</commonality>
       <options>
         <ZR_NPCPAWN_HEAVY_DEF>100</ZR_NPCPAWN_HEAVY_DEF>
         <ZR_NPCPAWN_LIGHTRANGED_DEF>50</ZR_NPCPAWN_LIGHTRANGED_DEF>
+        <ZR_NPCPAWN_UNARMOUREDRANGED_DEF>200</ZR_NPCPAWN_UNARMOUREDRANGED_DEF>
       </options>
     </li>
-    <!--■■■75/25 HEAVY/LIGHTCLOSE■■■--> 
+    <!--■■■HEAVY/LIGHTEANGED/UNARMOUREDCLOSE■■■--> 
     <li>
       <kindDef>Combat</kindDef>
       <commonality>15</commonality>
       <options>
         <ZR_NPCPAWN_HEAVY_DEF>100</ZR_NPCPAWN_HEAVY_DEF>
-        <ZR_NPCPAWN_LIGHTRANGED_DEF>50</ZR_NPCPAWN_LIGHTRANGED_DEF>
+        <ZR_NPCPAWN_LIGHTRANGED_DEF>100</ZR_NPCPAWN_LIGHTRANGED_DEF>
+        <ZR_NPCPAWN_UNARMOUREDCLOSE_DEF>200</ZR_NPCPAWN_UNARMOUREDCLOSE_DEF>
       </options>
     </li>
-    <!--■■■50/50 LIGHTRANGE/LIGHTCLOSE■■■-->  
+    <!--■■■LIGHTRANGE/LIGHTCLOSE■■■-->  
     <li>
       <kindDef>Combat</kindDef>
       <commonality>20</commonality>
       <options>
         <ZR_NPCPAWN_LIGHTRANGED_DEF>100</ZR_NPCPAWN_LIGHTRANGED_DEF>
+        <ZR_NPCPAWN_UNARMOUREDRANGED_DEF>100</ZR_NPCPAWN_UNARMOUREDRANGED_DEF>
         <ZR_NPCPAWN_LIGHTCLOSE_DEF>100</ZR_NPCPAWN_LIGHTCLOSE_DEF>
+        <ZR_NPCPAWN_UNARMOUREDCLOSE_DEF>100</ZR_NPCPAWN_UNARMOUREDCLOSE_DEF>
       </options>
     </li>
-    <!--■■■33/33/33 HEAVY/LIGHTRANGE/LIGHTCLOSE■■■-->  
+    <!--■■■HEAVY/LIGHTRANGE/LIGHTCLOSE■■■-->  
     <li>
       <kindDef>Combat</kindDef>
-      <commonality>20</commonality>
+      <commonality>10</commonality>
       <options>
         <ZR_NPCPAWN_HEAVY_DEF>100</ZR_NPCPAWN_HEAVY_DEF>
         <ZR_NPCPAWN_LIGHTRANGED_DEF>100</ZR_NPCPAWN_LIGHTRANGED_DEF>
@@ -147,8 +162,10 @@
       <kindDef>Settlement</kindDef>
       <options>
         <ZR_NPCPAWN_HEAVY_DEF>100</ZR_NPCPAWN_HEAVY_DEF>
-        <ZR_NPCPAWN_LIGHTRANGED_DEF>20</ZR_NPCPAWN_LIGHTRANGED_DEF>
-        <ZR_NPCPAWN_LIGHTCLOSE_DEF>20</ZR_NPCPAWN_LIGHTCLOSE_DEF>
+        <ZR_NPCPAWN_LIGHTRANGED_DEF>40</ZR_NPCPAWN_LIGHTRANGED_DEF>
+        <ZR_NPCPAWN_LIGHTCLOSE_DEF>20</ZR_NPCPAWN_LIGHTCLOSE_DEF> 
+        <ZR_NPCPAWN_UNARMOUREDRANGED_DEF>30</ZR_NPCPAWN_UNARMOUREDRANGED_DEF>
+        <ZR_NPCPAWN_UNARMOUREDRANGED_DEF>30</ZR_NPCPAWN_UNARMOUREDRANGED_DEF>
       </options>
     </li>
   </pawnGroupMakers>
