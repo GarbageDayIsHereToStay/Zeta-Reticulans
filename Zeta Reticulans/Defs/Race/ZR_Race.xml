@@ -599,6 +599,8 @@
       <li>tookDump</li>
       <li>UsedPrivateBathroom</li>
       <li>WashPrivacy</li>
+      <!--■RIM JOB WORLD■-->
+      <li>NeedSex</li>
     </cannotReceiveThoughts>
   </thoughtSettings>
  
